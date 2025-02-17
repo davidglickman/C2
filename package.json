@@ -1,0 +1,22 @@
+{
+  "name": "gis-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "frontend": "cd frontend && npm start"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "leaflet": "^1.7.1",
+    "mongoose": "^6.13.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^5.4.0",
+    "react-leaflet": "^3.0.5",
+    "socket.io": "^4.0.1"
+  }
+}
